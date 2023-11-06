@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plantcareproject/pages/loading_page2.dart';
+import 'package:plantcareproject/pages/home.dart';
+import 'package:plantcareproject/pages/nav.dart';
 
 class loading_page extends StatelessWidget{
   const loading_page({
@@ -11,12 +12,12 @@ class loading_page extends StatelessWidget{
   return  GestureDetector(
      onTap: () {
           Navigator.push(  
-          context,MaterialPageRoute(builder: (context) =>  const loading_page2()),  
+          context,MaterialPageRoute(builder: (context) =>  const home_page()),  
           ); 
         },
     child: Scaffold( 
       
-      backgroundColor:const Color.fromARGB(251, 241, 255, 252),
+      backgroundColor:Color.fromARGB(250, 210, 249, 241),
   
       body: Padding(
         
@@ -28,10 +29,11 @@ class loading_page extends StatelessWidget{
         //icon
         GestureDetector(
         child: Image.asset
-        ('lib/images/logo.png',height: 100,),
+        ('lib/images/logo3.png',height: 500,),
+        
         onTap: () {
           Navigator.push(  
-          context,MaterialPageRoute(builder: (context) =>  const loading_page2()),  
+          context,MaterialPageRoute(builder: (context) =>  const home_page()),  
           ); 
         },
         )
