@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantcareproject/pages/home.dart';
+import 'package:plantcareproject/pages/nav.dart';
 
 class loading_page extends StatelessWidget{
   const loading_page({
@@ -31,7 +32,7 @@ class loading_page extends StatelessWidget{
         ('lib/images/logo3.png',height: 400,),
         onTap: () {
           Navigator.push(  
-          context,MaterialPageRoute(builder: (context) =>  const home_page()),  
+          context,MaterialPageRoute(builder: (context) =>  const navpage()),  
           ); 
         },
         )

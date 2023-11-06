@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:plantcareproject/pages/home.dart';
 import 'package:plantcareproject/pages/loading_page.dart';
+import 'package:plantcareproject/pages/nav.dart';
 
 void main() async{
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: loading_page(),
+      home: navpage(),
     );
   }
 }

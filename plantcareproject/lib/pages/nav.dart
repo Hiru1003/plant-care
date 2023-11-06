@@ -33,7 +33,7 @@ class _navpageState extends State<navpage>{
       body: Center(child: _NavScreens.elementAt(_selectedindex),),
       bottomNavigationBar: Container(
        decoration: const BoxDecoration(
-       color: Color.fromARGB(255, 134, 208, 203),
+       color: Color.fromARGB(255, 137, 226, 190),
       ),
 
           child: GNav(

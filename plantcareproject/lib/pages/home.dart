@@ -19,14 +19,14 @@ final nameController = TextEditingController();
   @override
   Widget build(BuildContext context) {
   return Scaffold( 
-    backgroundColor: const Color.fromARGB(248, 197, 243, 235) , 
+    backgroundColor: Color.fromARGB(248, 211, 252, 227) , 
     body: SingleChildScrollView(
           
             child: Column(
               children: [Container(
                   padding: const EdgeInsets.all(0),
                    decoration: const BoxDecoration(
-                  color: Color.fromARGB(255, 134, 208, 203),
+                  color: Color.fromARGB(255, 137, 226, 190),
                   borderRadius: BorderRadius.only(bottomLeft: Radius.circular(16), bottomRight: Radius.circular(16)),
                   boxShadow: [
                     BoxShadow(
