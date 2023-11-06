@@ -19,8 +19,8 @@ final nameController = TextEditingController();
   @override
   Widget build(BuildContext context) {
   return Scaffold( 
-    backgroundColor: const Color.fromARGB(251, 237, 251, 223),
-      body: SingleChildScrollView(
+    backgroundColor: const Color.fromARGB(248, 197, 243, 235) , 
+    body: SingleChildScrollView(
           
             child: Column(
               children: [Container(
@@ -44,7 +44,7 @@ final nameController = TextEditingController();
                     const SizedBox(width: 16,),
                     
                     Text(
-                    'CHAT',
+                    'HOME',
                     style: GoogleFonts.poppins(
                     textStyle: Theme.of(context).textTheme.displayLarge,
                     color: const Color.fromARGB(255, 70, 66, 68),

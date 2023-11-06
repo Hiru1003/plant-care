@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plantcareproject/pages/loading_page.dart';
 
-void main() {
+void main() async{
   runApp(const MyApp());
 }
 
@@ -16,4 +16,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
